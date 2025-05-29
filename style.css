@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana;
+    font-size: 1.5em;
+}
+
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Verdana;
+}
+
+#btnContainer{
+    text-align: center;
+}
+
+.buttons{
+    padding: 10px, 20px;
+    font-size: 1.5em;
+    color: blue;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: backround-color 0.25s;
+}
+
+.buttons:hover{
+    background-color: grey;
+}
+
+#myButton{
+    font-size: 2em;
+    padding: 5px, 25px;
+    border-radius: 5px;
+}
+
+.myLabels{
+    font-size: 2em;
+}
